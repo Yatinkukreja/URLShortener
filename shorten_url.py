@@ -21,5 +21,5 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
-        'body': json.dumps({"short_url": f"https://example.com/{short_code}"}) ###TODO: Replace with your domain
+        'body': json.dumps({"short_url": f"https://ewmzx8m1cc.execute-api.us-east-2.amazonaws.com/{short_code}"})
     }
